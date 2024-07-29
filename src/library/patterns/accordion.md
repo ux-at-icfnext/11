@@ -1,10 +1,13 @@
 ---
 layout: layouts/right
-title: accordion
+title: Accordion
 tags: patterns
 summary:
 
 include: "{% include 'patterns/accordion/accordion.md' %}"
+include2: |
+  {% assign accordion = your-accordion-name %}
+  {% include "patterns/accordion/accordion.md" %}
 
 
 accordion:
@@ -28,3 +31,51 @@ accordion-sample:
       content: |
         ... the little magic bottle had now had its full effect, and she grew no larger: still it was very uncomfortable, and, as there seemed to be no sort of chance of her ever getting out of the room again, no wonder she felt unhappy
 ---
+
+## Design
+### Default Accordion
+
+{% include "patterns/accordion/accordion.md" %}
+
+### Example multi-select & bordered
+
+{% assign accordion = accordion-sample %}
+{% include "patterns/accordion/accordion.md" %}
+
+## Theme Settings
+These aspects can be set within the theme settings.
+- `$theme-accordion-background-color` Background color of the accordion content.
+- `$theme-accordion-border-width` Border width of the bordered accordion.
+- `$theme-accordion-border-color` Border color of the bordered accordion.
+- `$theme-accordion-button-background-color` Background color of the accordion button.
+- `$theme-accordion-font-family` Font family of the accordion.
+
+## Variations
+- `.usa-accordion--bordered` Display a border around accordion content
+
+## Library prototyping notes
+To use the data driven smart pattern, you'll need to set your content in the YAML front matter or in a data file. The component supports having multiple accordion groups on the page by adding the "alpha" property.
+
+``` yml
+accordion:
+  bordered: true # Defaults to false, do not need to include unless you want the border
+  multiselect: true # Defaults to false, do not need to include unless you want multi-select
+  alpha: b # Defaults to a, do not need to include unless you have multiple accordions on one page
+  list:
+    - title: Accordion Label
+      content: Accordion content
+    - title: Accordion Label 2
+      content: Accordion content 2
+```
+
+Include the pattern using this code:
+
+``` markdown
+ {{ include }}
+```
+
+If you need to change the name of your accordion group, especially for using multiple groups, you can reassign the accordion name.
+
+``` markdown
+ {{ include2 }}
+```
