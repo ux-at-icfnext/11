@@ -65,10 +65,10 @@ Example with no header or icon
 - `$theme-alert-icon-size` Size of the alert icon.
 - `$theme-alert-padding-x` Padding on the left and right of the alert.
 - `$theme-alert-padding-y` Padding on the top and bottom of the alert.
-- `$theme-alert-text-color` Text color on light backgrounds. Default uses text color set in $theme-text-color.
-- `$theme-alert-link-color` Link color on light backgrounds. Default uses text color set in $theme-text-color.
-- `$theme-alert-text-reverse-color` Text color on dark backgrounds. Default uses reverse text color set in $theme-text-reverse-color.
-- `$theme-alert-link-reverse-color` Link color on dark backgrounds. Default uses reverse link color set in $theme-link-reverse-color.
+- `$theme-alert-text-color` Text color on light backgrounds. Default uses text color set in `$theme-text-color`.
+- `$theme-alert-link-color` Link color on light backgrounds. Default uses text color set in `$theme-text-color`.
+- `$theme-alert-text-reverse-color` Text color on dark backgrounds. Default uses reverse text color set in `$theme-text-reverse-color`.
+- `$theme-alert-link-reverse-color` Link color on dark backgrounds. Default uses reverse link color set in `$theme-link-reverse-color`.
 
 ## Variations
 - `.usa-alert--emergency` Display an emergency status alert.

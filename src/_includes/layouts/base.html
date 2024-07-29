@@ -16,9 +16,11 @@ search:
   <title>{{ title }} - {{ settings.sitename }}</title>
 </head>
 <body>
+  {% if prototype %}{% include 'patterns/banner/banner.md' %}{% endif %}
   {% include 'patterns/header/header.md' %}
   {{ content }}
   {% include 'patterns/footer/footer.md' %}
+  {% if prototype %}{% include 'patterns/identifier/identifier.md' %}{% endif %}
 
   <script src="{{site.baseurl}}/assets/uswds/js/uswds.min.js"></script>
   <script src="{{site.baseurl}}/assets/js/copy_to_clipboard.js"></script>
