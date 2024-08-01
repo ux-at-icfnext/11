@@ -57,7 +57,7 @@ card-flags:
       right: true
       img: card-image-sample.png
       body: |
-        It was high time to go, for the pool was getting quite crowded with the birds and animals that had fallen into it: there were a Duck and a Dodo, a Lory and an Eaglet, and several other curious creatures.
+        It was high time to go, for the pool was getting quite crowded with the birds and animals that had fallen into it: there were a Duck and a Dodo, a Lory and an Eaglet, and several other curious creatures. 
 ---
 
 
@@ -105,7 +105,7 @@ You can set responsive grid sizes by adding grids to the card settings. The grid
 _these go within the `list` property of the card yml._
 - **title** - required
 - **body** - text only / optional
-- **image** - optional, link to image file
+- **img** - optional, link to image file
 - **inset** - optional, set to "true"
 - **header-first** - optional, moves header above the image, set to "true"
 - **button** optional, list contains label and link. Can house multiple buttons.
