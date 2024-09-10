@@ -45,7 +45,7 @@ These aspects can be set within the theme settings.
 - `$theme-process-list-heading-font-size `:Font size of the heading text.
 
 ## Library prototyping notes
-To use the data driven smart pattern, you'll need to set your content in the YAML front matter or in a data file. The component supports having multiple accordion groups on the page by adding the "alpha" property.
+To use the data driven smart pattern, you'll need to set your content in the YAML front matter or in a data file.
 
 ``` yml
 processlist:
