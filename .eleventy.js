@@ -1,4 +1,5 @@
 const yaml = require("js-yaml");
+const markdownIt = require("markdown-it");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({"src/assets": "assets"});
@@ -24,6 +25,15 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('markdownify', (str) => {
     return markdownItRenderer.renderInline(str);
   });
+
+  const md = new markdownIt({
+    html: true,
+  });
+  
+  eleventyConfig.addFilter("markdown", (content) => {
+    return md.render(content);
+  });
+
 
   // Set custom directories for input, output, includes, and data
   return {
