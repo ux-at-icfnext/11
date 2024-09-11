@@ -175,17 +175,17 @@ btn-group:
     - link: "/"
       text: click me
 
-htmlpath: "pattern/button/button.html"
+htmlpath: "patterns/button/button.html"
 
-snippet: '{% include "pattern/button/button.md" %}'
+snippet: '{% include "patterns/button/button.md" %}'
 spit-assigned: |
   
   {% assign button = myButton %}
-  {% include "pattern/button/button.md" %}
+  {% include "patterns/button/button.md" %}
 spit-assigned-group: |
 
   {% assign button-group = myButtonGroup %}
-  {% include "pattern/button/button.md" %}
+  {% include "patterns/button/button.md" %}
 ---
 
 ## Design 
