@@ -1,0 +1,1 @@
+{% for t in tag %}<span class="usa-tag {% if t.big %}usa-tag--big{% endif %}"> {{ t.text }}</span>{% endfor %}
