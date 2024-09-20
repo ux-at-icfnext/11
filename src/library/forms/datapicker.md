@@ -24,6 +24,9 @@ yaml-sample: |
 ## Design
 {% include "patterns/datepicker/datepicker.md" %}
 
+### Date Range Picker
+The USWDS shows both a [date picker](https://designsystem.digital.gov/components/date-picker/) and [date range picker](https://designsystem.digital.gov/components/date-range-picker/) as part of the design system. However, there isn't a difference between the two... the date range picker is created by simply using **two** date pickers.
+
 ## Properties
 Please read further on the [USWDS](https://designsystem.digital.gov/components/date-picker/#using-the-date-picker-component-2) about the properties and requirements of this form element.
 
