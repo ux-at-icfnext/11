@@ -1,6 +1,6 @@
 ---
 layout: layouts/right
-title: Accordion
+title: Pagination
 tags: patterns
 summary:
 
@@ -22,5 +22,5 @@ These aspects can be set within the theme settings.
 The library component is just a demo. If you need to make it functional, please build out the component.
 
 ``` markdown
- {{ include2 }}
+ {{ include }}
 ```

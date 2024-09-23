@@ -1,0 +1,1 @@
+<label class="usa-label" for="usa-range">{{ range.label }}</label><input id="usa-range" class="usa-range" type="range" min="" max="" step="" value="{{ range.value }}" />
