@@ -2,7 +2,9 @@
 layout: layouts/right
 title: Process List
 tags: patterns
-summary:
+summary: A process list displays the steps or stages of important instructions or processes.
+
+date: 2024-08-26
 
 include: "{% include 'patterns/processlist/processlist.md' %}"
 

@@ -2,7 +2,9 @@
 layout: layouts/right
 title: Step Indicator
 tags: patterns
-summary:
+summary: A step indicator updates users on their progress through a multi-step process.
+
+date: 2024-09-04
 
 include: "{% include 'patterns/stepindicator/stepindicator.md' %}"
 

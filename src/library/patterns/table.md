@@ -2,7 +2,9 @@
 layout: layouts/right
 title: Tables
 tags: patterns
-summary:
+summary: A table shows information in columns and rows.
+
+date: 2024-09-08
 
 table:
   - value: '#1b1b1b'

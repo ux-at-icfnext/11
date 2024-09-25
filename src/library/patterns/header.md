@@ -2,8 +2,9 @@
 layout: layouts/right
 title: Header
 tags: patterns
-summary:
+summary: A header helps users identify where they are and provides a quick, organized way to reach the main sections of a website.
 
+date: 2024-08-16
 ---
 
 ## Design

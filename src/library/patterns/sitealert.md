@@ -2,7 +2,9 @@
 layout: layouts/right
 title: Site Alert
 tags: patterns
-summary:
+summary: A site alert communicates urgent sitewide information.
+
+date: 2024-09-02
 
 include: "{% include 'patterns/sitealert/sitealert.md' %}"
 

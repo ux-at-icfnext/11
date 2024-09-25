@@ -2,8 +2,9 @@
 layout: layouts/right
 title: Footer
 tags: patterns
-summary:
+summary: A footer serves site visitors who arrive at the bottom of a page without finding what they want.
 
+date: 2024-08-14
 ---
 
 ## Design 

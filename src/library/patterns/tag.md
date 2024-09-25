@@ -2,7 +2,9 @@
 layout: layouts/right
 title: Tags
 tags: patterns
-summary:
+summary: A tag draws attention to new or categorized content elements.
+
+date: 2024-09-10
 
 include: "{% include 'patterns/tag/tag.md' %}"
 

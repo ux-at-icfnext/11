@@ -2,7 +2,9 @@
 layout: layouts/right
 title: Tool Tip
 tags: patterns
-summary:
+summary: A tooltip is a short descriptive message that appears when a user hovers or focuses on an element.
+
+date: 2024-09-12
 
 include: "{% include 'patterns/tooltip/tooltip.md' %}"
 

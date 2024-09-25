@@ -2,7 +2,9 @@
 layout: layouts/right
 title: Accordion
 tags: patterns
-summary:
+summary: An accordion is a list of headers that hide or reveal additional content when selected.
+
+date: 2024-08-01
 
 include: "{% include 'patterns/accordion/accordion.md' %}"
 include2: |

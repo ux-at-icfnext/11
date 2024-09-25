@@ -2,7 +2,9 @@
 layout: layouts/right
 title: Modal
 tags: patterns
-summary:
+summary: A modal disables page content and focuses the user’s attention on a single task or message.
+
+date: 2024-08-22 
 
 include: "{% include 'patterns/modal/modal.md' %}"
 

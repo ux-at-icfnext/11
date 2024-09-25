@@ -2,7 +2,9 @@
 layout: layouts/right
 title: Summary box
 tags: patterns
-summary:
+summary: A summary box highlights key information from a longer page or displays next steps.
+
+date: 2024-09-06
 
 include: "{% include 'patterns/summarybox/summarybox.md' %}"
 

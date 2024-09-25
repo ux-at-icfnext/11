@@ -4,6 +4,8 @@ title: Side Menu
 tags: patterns
 summary: Allows for showing the teriary menu in page -- best used for large screens and up.
 
+date: 2024-08-30
+
 include: "{% include 'patterns/sidenav/sidenav.md' %}"
 ---
 ## Design

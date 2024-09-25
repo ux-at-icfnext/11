@@ -4,6 +4,8 @@ title: Search Widget
 tags: patterns
 summary: Search allows users to search for specific content if they know what search terms to use or can’t find desired content in the main navigation
 
+date: 2024-08-28
+
 include: "{% include 'patterns/search/search.md' %}"
 search:
   label: Search

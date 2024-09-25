@@ -2,7 +2,9 @@
 layout: layouts/right
 title: Card
 tags: patterns
-summary:
+summary: Cards contain content and actions about a single subject.
+
+date: 2024-08-10
 
 include: "{% include 'patterns/card/card.md' %}"
 

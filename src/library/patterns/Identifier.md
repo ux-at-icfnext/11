@@ -2,7 +2,9 @@
 layout: layouts/right
 title: Identifier
 tags: patterns
-summary:
+summary: The identifier communicates a site’s parent agency and displays agency links required by federal laws and policies.
+
+date: 2024-08-18
 ---
 
 ## Design

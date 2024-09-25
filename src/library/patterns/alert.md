@@ -2,7 +2,9 @@
 layout: layouts/right
 title: Alert
 tags: patterns
-summary:
+summary: An alert keeps users informed of important and sometimes time-sensitive changes.
+
+date: 2024-08-04
 
 include: "{% include 'patterns/alert/alert.md' %}"
 

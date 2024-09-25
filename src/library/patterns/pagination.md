@@ -2,7 +2,9 @@
 layout: layouts/right
 title: Pagination
 tags: patterns
-summary:
+summary: Pagination is navigation for paginated content.
+
+date: 2024-08-24
 
 include: "{% include 'patterns/pagination/pagination.md' %}"
 ---

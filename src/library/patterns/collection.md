@@ -2,7 +2,9 @@
 layout: layouts/right
 title: Collection
 tags: patterns
-summary:
+summary: A collection displays a compact list of multiple related items like articles or events. The list links each item to its original source.
+
+date: 2024-08-12
 
 include: "{% include 'patterns/collection/collection.md' %}"
 

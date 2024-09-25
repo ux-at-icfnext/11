@@ -2,7 +2,9 @@
 layout: layouts/right
 title: Banner
 tags: patterns
-summary:
+summary: Banners identify official websites of government organizations in the United States. They also help visitors understand whether a website is official and secure.
+
+date: 2024-08-06
 ---
 
 ## Design

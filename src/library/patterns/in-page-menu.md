@@ -4,6 +4,7 @@ title: In-page Navigation
 tags: patterns
 summary: Allows for a table of contents, which reads the header levels in the document and creates a jump menu. Great for long pages.
 
+date: 2024-08-20
 ---
 
 ## Design
