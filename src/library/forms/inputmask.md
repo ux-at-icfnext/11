@@ -1,7 +1,7 @@
 ---
 layout: layouts/right
 title: Input Mask
-tags: forms
+tags: unpublish
 summary:
 
 include: "{% include 'patterns/inputmask/inputmask.md' %}"

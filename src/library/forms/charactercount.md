@@ -1,7 +1,7 @@
 ---
 layout: layouts/right
 title: Character Count
-tags: forms
+tags: unpublished
 summary:
 
 include: "{% include 'patterns/charactercount/charactercount.md' %}"

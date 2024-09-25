@@ -1,12 +1,13 @@
 ---
 layout: layouts/right
-title: Combo Box
-tags: unpublished
+title: Select
+tags: forms
 summary:
 
-include: "{% include 'patterns/combobox/combobox.md' %}"
 
-combobox:
+include: "{% include 'patterns/select/select.md' %}"
+
+select:
   name: fruit
   label: Select a fruit
   list:
@@ -18,7 +19,7 @@ combobox:
     - value: Banana
 
 yaml-sample: |
-  combobox:
+  select:
     name: fruit
     label: Select a fruit
     list:
@@ -31,10 +32,8 @@ yaml-sample: |
 ---
 
 ## Design
-{% include "patterns/combobox/combobox.md" %}
+{% include 'patterns/select/select.md' %}
 
-## Properties
-Please read further on the [USWDS](https://designsystem.digital.gov/components/combo-box/#using-the-combo-box-component-2) about the properties and requirements of this form element.
 
 ## Library Use
 Make sure to inclose the full form between the `<form class="usa-form"> </form>` tags.
@@ -51,5 +50,3 @@ Include the pattern using this code:
 ``` markdown
  {{ include }}
 ```
-
-
