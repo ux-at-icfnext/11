@@ -17,7 +17,7 @@ Please review the styles below on how to edit their theme-settings to apply bran
         <h4 class="usa-card__heading">{{ l.data.title}}</h4>
       </div>
       <div class="usa-card__footer">
-        <a href="{{ l.url }}" class="usa-button">view pattern</a>
+        <a href="{{ l.url }}" class="usa-button">view style</a>
       </div>
       </div>
     </li>

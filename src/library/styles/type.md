@@ -27,6 +27,11 @@ Body text - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius
 
 ---
 
+## Prose
+The USWDS using reset to unstyle all browser type settings. In order to apply prose styles to your text you'll want to give them the proper classes. For instance use `usa-list` to make your list appropately styled with padding and indentation.
+
+Applying the class `usa-prose` to the outter element will apply prose to all items with in. We have found that applying the the class to the same div as where you are applying the `grid-container` will help to make sure that all text elements inside are properly styled. Read more about the [Grid here](/library/styles/grid/)
+
 ## Custominizing Type in the USWDS
 Use the `$theme-settings` to change the font you would like to use for the library. 
 ### Native fonts
