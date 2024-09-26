@@ -21,17 +21,16 @@ Initialize local environment, compile USWDS, and run local server
 
 ## To Get Started
 
-1.  Run `npm install`
-2.  Run `npm start init`
+    npm install
+    npm start init
 
 stop the server by using ctr+C
 
 
 ## To restart the server
-- Run `npm start`
+    npm start
 
 ## Adding images to the library:
 Custom images should be added to the: 
-    
-    /assets/images folder
+-> /assets/images folder
 
