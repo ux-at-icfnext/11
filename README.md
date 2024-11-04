@@ -21,8 +21,7 @@ Initialize local environment, compile USWDS, and run local server
 
 ## To Get Started
 
-    npm install
-    npm start init
+    npm start 
 
 stop the server by using ctr+C
 
